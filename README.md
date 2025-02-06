@@ -23,4 +23,4 @@ To run this project locally, follow these steps (currently under development):
 
 ### 1. Clone the repo:
 ```bash
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/DevMike13/My-Portfolio-2025.git
