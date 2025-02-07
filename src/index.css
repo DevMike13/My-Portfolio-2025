@@ -2,11 +2,28 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import "tailwindcss";
 
+@font-face {
+    font-family: "Canopee";
+    font-display: swap;
+    src: url("/fonts/Canopee.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Agrandir-Regular";
+    font-display: swap;
+    src: url("/fonts/Agrandir-Regular.otf") format("opentype");
+}
+
 @theme {
     --color-aesthetic: #f0ebe7;
     --color-bold-black: #151517;
     --color-aesthetic-gray: #e3ded8;
     --color-aesthetic-brown: #bd5b2a;
+    --color-vintage: #e9e6d3;
+    --color-vintage-brown: #1a4323;
+    --color-vintage-cream: #e8e5d4;
     --font-primary : "Inter", serif;
-    --font-secondary : "PT Serif", serif;
+    --font-secondary : "Canopee", serif;
+    --font-agrandir-regular : "Agrandir-Regular", serif;
 }
+

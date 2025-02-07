@@ -31,7 +31,7 @@ const App = () => {
     };
   }, []);
   return (
-    <div className="w-full h-[100vh] min-h-screen bg-aesthetic">
+    <div className="w-full h-[100vh] min-h-screen bg-vintage">
       {cursorEnabled && deviceType === "desktop" && <AnimatedCursor />}
       <NavBar cursorEnabled={cursorEnabled} setCursorEnabled={setCursorEnabled} />
       <Hero />
